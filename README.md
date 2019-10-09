@@ -6,7 +6,7 @@ HTML,CSS,JavaScript,Bootstrap
 ## Image:
 
 #### ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-![Drag Racing](images/play.PNG)
+(image/weather.png)
 #### ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ![Drag Racing](images/score.PNG)
 ## Video:
