@@ -8,8 +8,5 @@ HTML,CSS,JavaScript,Bootstrap
 #### ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ![alt text](image/weather.png)
 #### ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-![Drag Racing](images/score.PNG)
-## Video:
-[GoblinGo Video](images/GoblinGo.mp4)
-## Visit:
-[GoblinGO](https://aadeshnichite.github.io/CanvasGame/)
+## You can access it here (use Google Chrome!):
+[weatherapp](https://aadeshnichite.github.io/CanvasGame/)
