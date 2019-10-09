@@ -6,7 +6,7 @@ HTML,CSS,JavaScript,Bootstrap
 ## Image:
 
 #### ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-(image/weather.png)
+![alt text](image/weather.png)
 #### ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ![Drag Racing](images/score.PNG)
 ## Video:
