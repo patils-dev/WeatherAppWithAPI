@@ -1,6 +1,16 @@
-.main{
+
+.full-screen{
+    background-image: url("image/design.jpg");
     height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
-.left-side{
-    background-color: blue;
+.main-screen{
+    
+    height: 800px;
+    width: 500px;
+    background-color: aliceblue;
 }
