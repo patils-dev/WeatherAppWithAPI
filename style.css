@@ -16,3 +16,20 @@
     justify-content: center;
     align-items: center;
 }
+#celcius{
+    background:none;
+    border:none;
+    margin:0;
+    padding:0;
+    cursor: pointer;
+    color: aliceblue;
+    
+}
+#fahrenheit{
+    background:none;
+    border:none;
+    margin:0;
+    padding:0;
+    cursor: pointer;
+    color: aliceblue;
+}
