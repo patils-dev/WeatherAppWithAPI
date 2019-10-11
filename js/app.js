@@ -1,7 +1,7 @@
 //display city details
 
-// window.onload()
-// {
+function init()
+{
     document.getElementById("list").addEventListener("keypress",function displayData(e){
         if(e.keyCode==13)
         {
@@ -11,6 +11,7 @@
             dw.displayDate()
             dw.displayValues();
         }
-    
     })
-// }
+}
+
+window.onload=init;

@@ -18,9 +18,15 @@ displayValues(){
 
     // const proxy="https://cors-anywhere.herokupp.com/"
     $.getJSON("http://api.openweathermap.org/data/2.5/find?q="+selectedCity+"&units=metric&appid=344b790f76ac39d29c9973f2736c19c3", 
-    function(data){
-        let icon="http://openweathermap.org/img/w/"+data.list[0].weather[0].icon+".png";
-    })
+        function(data){
+            let icon="http://openweathermap.org/img/w/"+data.list[0].weather[0].icon+".png";
+            document.getElementById("cityName").innerHTML=data.list[0].name;
+            document.getElementById("stateName").innerHTML=data.list[0].sys.country;
+            $("#icon").attr("src",icon);
+            document.getElementById("weatherName").innerHTML=data.list[0].weather[0].main;
+            document.getElementById("temperature").innerHTML=data.list[0].main.temp;
+            document.getElementById("celcius").disabled = true;
+        })
 }
 
 }
