@@ -38,11 +38,11 @@ displayFahrenheit(){
 }
 
 displayCelcius(){
-    // let cityTemp=document.getElementById("cityName").innerHTML;
 
-    let selectedCity=dw.weather.find(v=>{return v.city==resultcity});
-    document.getElementById("temperature").innerHTML=selectedCity['temperature'];
-    //console.log(selectedCity);
+    let fahTemp=document.getElementById("temperature").textContent;
+    let celTemp=Math.round((fahTemp*1.8)+32);
+    document.getElementById("temperature").innerHTML=celTemp;
+
 }
 
 }
