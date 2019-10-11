@@ -33,3 +33,7 @@
     cursor: pointer;
     color: aliceblue;
 }
+#temperature{
+    margin: 10px;
+    font-size: 2rem;
+}
