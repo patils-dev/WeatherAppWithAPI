@@ -30,10 +30,8 @@ displayValues(){
 }
 
 displayFahrenheit(){
-    // let cityTemp=document.getElementById("cityName").innerHTML;
-    //console.log(resultcity);
-    let selectedCity=dw.weather.find(v=>{return v.city==resultcity}); 
-    let fahTemp=Math.round((selectedCity.temperature*1.8)+32);
+    let tempCel=document.getElementById("temperature").textContent;
+    let fahTemp=Math.round((tempCel*1.8)+32);
     //console.log(fahTemp);
     document.getElementById("temperature").innerHTML=fahTemp;
 
