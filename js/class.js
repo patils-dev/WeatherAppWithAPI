@@ -29,4 +29,22 @@ displayValues(){
         })
 }
 
+displayFahrenheit(){
+    // let cityTemp=document.getElementById("cityName").innerHTML;
+    //console.log(resultcity);
+    let selectedCity=dw.weather.find(v=>{return v.city==resultcity}); 
+    let fahTemp=Math.round((selectedCity.temperature*1.8)+32);
+    //console.log(fahTemp);
+    document.getElementById("temperature").innerHTML=fahTemp;
+
+}
+
+displayCelcius(){
+    // let cityTemp=document.getElementById("cityName").innerHTML;
+
+    let selectedCity=dw.weather.find(v=>{return v.city==resultcity});
+    document.getElementById("temperature").innerHTML=selectedCity['temperature'];
+    //console.log(selectedCity);
+}
+
 }

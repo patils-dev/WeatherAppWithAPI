@@ -12,6 +12,12 @@ function init()
             dw.displayValues();
         }
     })
+    document.getElementById("fahrenheit").addEventListener("click",function displayFah(e){
+
+        let result=document.getElementById("list").value;
+        dw=new Weather();
+        dw.displayFahrenheit();
+    })
 }
 
 window.onload=init;
