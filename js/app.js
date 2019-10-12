@@ -15,14 +15,14 @@ function init()
     document.getElementById("fahrenheit").addEventListener("click",function displayFah(e){
 
         let result=document.getElementById("list").value;
-        dw=new Weather();
+        dw =new Weather(result);
         dw.displayFahrenheit();
     })
     document.getElementById("celcius").addEventListener("click",function displayFah(e){
 
         let result=document.getElementById("list").value;
-        dw=new Weather();
-        dw.displayFahrenheit();
+        dw =new Weather(result);
+        dw.displayCelcius();
     })
 }
 
