@@ -32,6 +32,8 @@ displayValues(){
 displayFahrenheit(){
     let tempCel=document.getElementById("temperature").textContent;
     let fahTemp=Math.round((tempCel*1.8)+32);
+    document.getElementById("fahrenheit").disabled = true;
+    document.getElementById("celcius").disabled = false;
     //console.log(fahTemp);
     document.getElementById("temperature").innerHTML=fahTemp;
 
@@ -40,7 +42,10 @@ displayFahrenheit(){
 displayCelcius(){
 
     let fahTemp=document.getElementById("temperature").textContent;
-    let celTemp=Math.round((fahTemp*1.8)+32);
+    // let celTemp=Math.round((fahTemp*1.8)+32);
+    let celTemp=Math.round((fahTemp-32) * 5/9 );
+    document.getElementById("celcius").disabled = true;
+    document.getElementById("fahrenheit").disabled= false;
     document.getElementById("temperature").innerHTML=celTemp;
 
 }
