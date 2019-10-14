@@ -6,4 +6,4 @@ HTML,CSS,JavaScript,Bootstrap
 ## Image:
 ![alt text](image/weatherapp.png)
 #### You can access it here (use Google Chrome!):
-https://patils-dev.github.io/WeatherAppv1/
+ https://patils-dev.github.io/WeatherAppWithAPI/
