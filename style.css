@@ -6,16 +6,19 @@
     display:flex;
     color: aliceblue;
 }
+
 .showWeather{
     /* background-color: aliceblue; */
     height: 70%;
 }
+
 .main-screen{
     height: 100vh;
     width: 100vw;
     justify-content: center;
     align-items: center;
 }
+
 #celcius{
     background:none;
     border:none;
@@ -23,8 +26,8 @@
     padding:0;
     cursor: pointer;
     color: aliceblue;
-    
 }
+
 #fahrenheit{
     background:none;
     border:none;
@@ -36,4 +39,11 @@
 #temperature{
     margin: 10px;
     font-size: 2rem;
+}
+#list{
+
+    background:#FFFFFF url("/image/search.png") no-repeat 4px;
+    padding:4px 4px 4px 22px;
+    border:2px solid #456879;
+    border-radius:10px;
 }
