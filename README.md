@@ -4,6 +4,6 @@ using HTML,CSS,javaScript,jquery,Bootstrap.
 ## Technology Used:
 HTML,CSS,JavaScript,Bootstrap
 ## Image:
-![alt text](image/weather.png)
+![alt text](image/weatherapp.png)
 #### You can access it here (use Google Chrome!):
 https://patils-dev.github.io/WeatherAppv1/
