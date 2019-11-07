@@ -41,7 +41,10 @@
 }
 #temperature{
     margin: 10px;
-    font-size: 2rem;
+    /* font-size: 1rem; */
+}
+#temp-display{
+    display: none;
 }
 #list{
 
