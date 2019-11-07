@@ -7,9 +7,12 @@
     color: aliceblue;
 }
 
-.showWeather{
+/* .showWeather{ */
     /* background-color: aliceblue; */
     /* height: 70%; */
+/* } */
+.headline{
+    color: rgb(208, 238, 161);
 }
 
 .main-screen{
