@@ -5,6 +5,7 @@ function init()
         if(e.keyCode==13)
         {
             let result=document.getElementById("list").value;
+            document.getElementById("temp-display").style.display = "flex";
             dw =new Weather(result);
             dw.displayDate()
             dw.displayValues();
