@@ -29,6 +29,7 @@
     padding:0;
     cursor: pointer;
     color: aliceblue;
+    outline: none;
 }
 
 #fahrenheit{
@@ -38,6 +39,7 @@
     padding:0;
     cursor: pointer;
     color: aliceblue;
+    outline: none;
 }
 #temperature{
     margin: 10px;
@@ -52,4 +54,8 @@
     padding:4px 4px 4px 22px;
     border:2px solid #456879;
     border-radius:10px;
+    outline: none;
+}
+#weatherName{
+    display: flex;
 }
